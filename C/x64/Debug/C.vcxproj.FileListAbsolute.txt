@@ -1,1 +1,2 @@
 C:\Users\Administrator\Desktop\C\x64\Debug\Culture.exe
+C:\Users\Administrator\Desktop\new\C\x64\Debug\new.exe
