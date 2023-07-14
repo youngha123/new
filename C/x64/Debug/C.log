@@ -1,3 +1,8 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(Culture.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-  Source.c
-  C.vcxproj -> C:\Users\User\OneDrive\바탕 화면\new\C\x64\Debug\new.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Culture.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+C:\Users\Administrator\Desktop\new\C\Source.cpp(6,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Administrator\Desktop\new\C\Source.cpp(88,15): warning C4309: 'initializing': truncation of constant value
+C:\Users\Administrator\Desktop\new\C\Source.cpp(100,19): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\Administrator\Desktop\new\C\Source.cpp(100,16): warning C4309: 'initializing': truncation of constant value
+C:\Users\Administrator\Desktop\new\C\Source.cpp(101,26): warning C4056: overflow in floating-point constant arithmetic
+  C.vcxproj -> C:\Users\Administrator\Desktop\new\C\x64\Debug\new.exe

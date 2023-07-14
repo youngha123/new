@@ -1,3 +1,4 @@
+#pragma once
 #include <stdio.h>
 
 // stdio
@@ -19,12 +20,12 @@ void main()
 	// float  <-> 실수형 (4 byte)
 	// double <-> 실수형 (8 byte)
 
-	char alphabet = 'G'; 
+	char alphabet = 'G';
 
 	int data = 10;
 
 	float decimal = 12.5f;
-	
+
 	double value = 99.75;
 
 
@@ -79,7 +80,7 @@ void main()
 
 #pragma region 변수의 초기화
 	// 최초로 변수에 값을 저장해주는 과정입니다.
-	
+
 	// 4 byte 메모리 공간 생성
 	int a1; // a1 선언
 
@@ -93,17 +94,17 @@ void main()
 
 #pragma region 상수
 	// 프로그램이 실행되는 동안 더이상 변경할 수 없는 메모리 공간입니다.
-	
+
 	const float pi = 3.141592f;
-	
+
 	// 상수는 메모리 공간을 생성하는 동시에 초기화해야 하며,
 	// 한 번 저장된 값은 더 이상 변경할 수 없습니다.
 	// ex) pi = 99.236f; ERROR
 
 	// 심볼릭 상수는 메모리 공간을 가지고 있는 상수입니다.
 	// ex) pi 
-	
-	// 이터널 상수는 메모리 공간을 가지고 있지 않은 상수입니다.
+
+	// 리터널 상수는 메모리 공간을 가지고 있지 않은 상수입니다.
 	// ex) 3.141592
 
 #pragma endregion
@@ -112,7 +113,7 @@ void main()
 
 	// 산술 연산자 : +, -, *, /
 	// 정수 값으로 연산해주세요.
-	
+
 	int a = 10;
 
 	int b = 20;
@@ -136,7 +137,6 @@ void main()
 
 	// 6. printf(    , 리터럴 상수 / 리터럴 상수);
 	printf("%d\n", 100 / 100);
-
 #pragma endregion
 
 }
