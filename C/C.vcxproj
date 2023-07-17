@@ -22,6 +22,7 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="(2023.0715)비트와 바이트.h" />
     <ClInclude Include="(2023.7.12) 변수.h" />
     <ClInclude Include="(2023.7.13) 상수.h" />
   </ItemGroup>
