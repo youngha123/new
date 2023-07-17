@@ -130,18 +130,31 @@ void main()
 #pragma region 사분면
 
 	int x = 3;
-	int y = 6;
+	int y = -6;
 
-	if (x == 0, y == 0)
+	if (x == 0 && y == 0)
 	{
 		printf("x와 y는 원점입니다.\n");
 	}
-	else if (x > 0, y > 0)
+	else if (x > 0 && y > 0)
 	{
-		printf("1사분면(%d, %d) 입니다.\n, x, y);
+		printf("1사분면 입니다.\n");
 	}
 
+	else if (x < 0 && y > 0)
+	{
+		printf("2사분면 입니다.\n");
+	}
 
+	else if (x < 0 && y < 0)
+	{
+		printf("3사분면 입니다.\n");
+	}
+
+	else if (x > 0 && y < 0)
+	{
+		printf("4사분면 입니다.\n");
+	}
 #pragma endregion
 }
 
