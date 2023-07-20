@@ -87,7 +87,7 @@ void main()
 	// char 1 byte -> -128 ~ 127 까지 출력 가능
 	// short 2 byte -> -32768 ~ 32767
 
-	char score = 129;
+	// char score = 129;
 
 	// 오버플로우의 경우 최댓값보다 더 많은 값을 저장하게 되면 최솟값부터 최댓값을
 	// 넘어간 만큼 다시 계산합니다.
@@ -102,16 +102,16 @@ void main()
 	// 최솟값보다 더 작은값을 저장하게 되면 최댓값부터 최솟값을 넘어간 만큼
 	// 다시 계산합니다.
 
-	char count = -129;
-
-	printf("count 변수의 값: %d\n", count);
-
-
-	// 실수형 자료형은 오버플로우가 발생하면 infinity라는 값으로 출력됩니다.
-
-	float decimal = FLT_MAX + FLT_MAX;
-
-	printf("decimal 변수의 값: %f\n", decimal);
+	// char count = -129;
+	// 
+	// printf("count 변수의 값: %d\n", count);
+	// 
+	// 
+	// // 실수형 자료형은 오버플로우가 발생하면 infinity라는 값으로 출력됩니다.
+	// 
+	// float decimal = FLT_MAX + FLT_MAX;
+	// 
+	// printf("decimal 변수의 값: %f\n", decimal);
 
 #pragma endregion
 

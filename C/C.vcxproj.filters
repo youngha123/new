@@ -24,6 +24,18 @@
     <ClInclude Include="(2023.0715)비트와 바이트.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="%282023.07.17%29조건문.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="(2023.07.19)자료형 변환.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="(2023.7.18)반복문.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="(2023.7.20)주소 연산자.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
